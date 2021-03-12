@@ -91,9 +91,4 @@ console.log(chalk.underline.bold.bgYellow("YAY !, Your Score Is:" + score));
 console.log("-----------------------");
 console.log(chalk.bold.bgGreenBright("Highest Score Holders:"));
 
-for(i=0; i<highscore.length; i++){
-
-  var currentScore = highscore[i];
-  console.log(currentScore.name ,currentScore.score);
-}
 
